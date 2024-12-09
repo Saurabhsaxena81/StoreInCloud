@@ -137,3 +137,118 @@ This system caters to individuals and small teams seeking a simple, secure, and 
 - Introduce activity logs to track file uploads, downloads, and deletions.  
 
 ---
+
+# Synopsis  
+
+## Project Title  
+**Advanced File Management System with OTP Authentication**  
+
+---
+
+## Objective  
+The goal of this project is to create a comprehensive, secure, and user-friendly file management system. Users can log in using OTP verification via email, upload files, organize them efficiently, and share them with others. The platform categorizes files based on their type for easier navigation and offers essential features like renaming, deleting, and viewing files. This project is inspired by Google Drive but emphasizes simplicity, security, and advanced categorization.  
+
+---
+
+## Key Features  
+
+### 1. **User Authentication**  
+- **OTP-Based Login**:  
+  - Users log in securely using an email-based OTP verification system.  
+  - Ensures seamless and safe authentication through **Appwrite's services**.  
+
+### 2. **File Management**  
+- **Upload Files**:  
+  - Supports files of any type (e.g., images, videos, documents).  
+- **Rename Files**:  
+  - Rename files directly from the dashboard for better organization.  
+- **Delete Files**:  
+  - Permanently remove files from the system when needed.  
+- **Share Files**:  
+  - Share files securely with other users by entering their email addresses.  
+- **View Files**:  
+  - In-app file viewer supports various formats (e.g., image previews, document viewers).  
+
+### 3. **File Categorization**  
+- Files are automatically organized into specific categories:  
+  - **Images**: All image files like `.jpg`, `.png`, `.gif`.  
+  - **Audio and Video**: Media files such as `.mp3`, `.wav`, `.mp4`.  
+  - **Documents**: Office and PDF files like `.docx`, `.xlsx`, `.pdf`.  
+  - **All Files**: Unified section to view and manage all uploaded files.  
+
+### 4. **Storage Management**  
+- Each user is provided with **2GB of storage space**.  
+- Real-time notifications alert users when their storage usage reaches 80% and 100%.  
+
+### 5. **User Dashboard**  
+- A visually appealing, responsive dashboard designed with **Next.js 15** and **Tailwind CSS**.  
+- Displays:  
+  - Uploaded files by category and metadata (e.g., file name, size, date uploaded).  
+  - Remaining storage quota in an intuitive progress bar format.  
+- Easy navigation between different sections for file management.  
+
+---
+
+## Technology Stack  
+
+- **Frontend**:  
+  - Built using **Next.js 15** for its dynamic routing, server-side rendering, and performance optimization.  
+  - Styled with **Tailwind CSS** to create a modern, responsive, and user-centric interface.  
+
+- **Backend**:  
+  - Powered by **Appwrite**, offering robust authentication, file storage, and real-time data synchronization.  
+
+---
+
+## Scope  
+
+The system is designed for individual users or small teams who require a lightweight, secure, and efficient platform for file storage and collaboration. The solution aims to:  
+- Provide secure and fast access through OTP-based authentication.  
+- Simplify file upload, categorization, and management.  
+- Enable seamless file sharing for improved collaboration.  
+- Serve as a scalable and customizable alternative to larger, complex platforms like Google Drive.  
+
+---
+
+## Unique Selling Points  
+
+1. **Categorized File Organization**:  
+   - Automatically sorts files by type into intuitive sections, making it easier for users to find what they need.  
+
+2. **Lightweight and Fast**:  
+   - Built on modern technologies to ensure a responsive and seamless user experience.  
+
+3. **Simplified Sharing**:  
+   - Sharing files is as easy as entering an email address, eliminating complicated permission management.  
+
+4. **Privacy and Security**:  
+   - OTP-based authentication and Appwrite’s backend services ensure user data and files are protected.  
+
+5. **Cross-Platform Usability**:  
+   - Fully responsive design ensures usability across desktops, tablets, and smartphones.  
+
+---
+
+## Future Enhancements  
+
+- **Storage Expansion Plans**:  
+  - Introduce subscription-based models for users to increase their storage quota.  
+
+- **File Collaboration**:  
+  - Add multi-user collaboration features such as shared editing and commenting.  
+
+- **Folder Support**:  
+  - Enable folder creation and hierarchy for better file organization.  
+
+- **Advanced Search and Filters**:  
+  - Implement search functionality with filters based on file type, name, or upload date.  
+
+- **Activity Logs**:  
+  - Track file actions like uploads, deletions, and shares for improved user control.  
+
+- **Multi-Factor Authentication (MFA)**:  
+  - Enhance security by incorporating MFA options such as authenticator apps or SMS codes.  
+
+---
+
+This project represents a modern approach to file management by combining simplicity, functionality, and security. Built with the latest technologies like **Next.js**, **Tailwind CSS**, and **Appwrite**, it provides a scalable and efficient platform tailored to meet users' everyday storage and file-sharing needs.
